@@ -60,7 +60,7 @@ assets/                   放你自己的立绘与音乐（不随仓库分发）
 > `"/c/Program Files (x86)/Microsoft/Edge/Application/msedge.exe"` 或 `google-chrome`。
 
 ```bash
-git clone https://github.com/<you>/canvas-duel-studio.git
+git clone https://github.com/wumouren114/canvas-duel-studio.git
 cd canvas-duel-studio
 pip install pillow
 ```
@@ -126,7 +126,7 @@ ffmpeg -i out/duel_p1_win.webm -c:v libx264 -crf 20 -pix_fmt yuv420p \
 | 追踪弹 | 转向角速度限制 + 0.28s「起飞窗口」不判定命中 | [02](docs/02-skill-fx.md) |
 | 自动验证 | 注入 `__dbg`，虚拟时间下手动 `step()` | [03](docs/03-headless-verification.md) |
 | 自动录屏 | `captureStream` + 音频 `MediaStreamDestination` | [04](docs/04-video-recording.md) |
-| 踩过的坑 | 焦点、dpb、ffmpeg 写盘、奇数高度…… | [05](docs/05-pitfalls.md) |
+| 踩过的坑 | 焦点、dpr、ffmpeg 写盘、奇数高度…… | [05](docs/05-pitfalls.md) |
 
 ## 素材与版权
 
