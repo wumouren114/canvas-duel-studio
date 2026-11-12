@@ -1,0 +1,24 @@
+# 构建 / 录制产物
+/build/
+/out/
+/out[0-9]/
+
+# 素材：版权原因不随仓库分发（assets/README.md 除外）
+/assets/*.png
+/assets/*.jpg
+/assets/*.jpeg
+/assets/*.webp
+/assets/*.mp3
+/assets/*.wav
+/assets/*.ogg
+/assets/*.m4a
+
+# 浏览器 profile 与临时文件
+edge_*/
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
+.vscode/
+.idea/
+_t*.js
